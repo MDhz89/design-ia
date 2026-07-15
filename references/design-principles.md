@@ -34,6 +34,8 @@ generated from a generic SaaS template.
 - Prefer whitespace and subtle separators over unnecessary containers.
 - Keep paragraphs readable and avoid overly wide text columns.
 - Make the product visible early when product evidence is available.
+- Use quiet borders, responsive states, and small transitions to make interfaces
+  feel considered without adding visual noise.
 
 ## Content
 

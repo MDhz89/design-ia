@@ -26,6 +26,10 @@ Load supporting references only when their phase requires them:
 - Read `references/accessibility.md` before implementation and verification.
 - Read `references/landing-page-process.md` after discovery, when planning or
   implementing the page.
+- Read `references/interaction-and-motion.md` when defining hover states,
+  filters, product reveals, sticky sections, or scroll-linked storytelling.
+- Read `references/conversion-actions.md` when selecting or implementing the
+  primary CTA, forms, WhatsApp links, phone links, or other lead-capture paths.
 - Read `references/landing-page-review.md` when reviewing an existing result or
   performing final verification.
 
@@ -90,6 +94,7 @@ Infer the smallest useful model needed to design the landing:
 - Likely buyer or decision-maker.
 - Previous manual process or business problem, when supported.
 - Primary conversion action, when supported.
+- Verified conversion channels and where submitted lead data can be delivered.
 
 ### Workflow and value
 
@@ -135,6 +140,7 @@ Before implementation, present:
 5. Product evidence available for the page.
 6. Critical uncertainty, if any.
 7. Proposed landing narrative and sections.
+8. Proposed CTA behavior and any data or destination it still requires.
 
 Keep this summary short and decision-oriented. Do not output a technical
 inventory or create it as a file.
@@ -164,7 +170,9 @@ section must have a distinct purpose.
 - Avoid generic centered heroes, decorative gradients, glowing shapes, repeated
   card grids, excessive pills, fake social proof, and unsupported claims.
 - Describe business controls and outcomes instead of CRUD operations.
-- Use motion only to explain state or progression.
+- Design deliberate hover, focus, active, selected, loading, and disabled states.
+- Reserve strong scroll motion for one or two narrative moments with clear value.
+- Use motion only to explain state, progression, hierarchy, or product behavior.
 
 ### Implementation constraints
 
@@ -177,6 +185,8 @@ section must have a distinct purpose.
 - Respect reduced-motion preferences.
 - Ensure responsive behavior without hiding essential content or actions.
 - Avoid unnecessary asset weight and runtime complexity.
+- Do not leave any CTA, navigation item, or interactive control without a real
+  destination, state change, or verified action.
 
 ## Phase 6: Verify
 
@@ -190,6 +200,8 @@ At minimum, verify:
 - Copy explains business value rather than generic CRUD functionality.
 - Sections do not repeat the same structure without a content reason.
 - Existing routes and primary application flows still work.
+- Every CTA completes a real and tested conversion path.
+- Hover, focus, filter, scroll, and form interactions work as intended.
 - Keyboard, reduced-motion, mobile, and desktop behavior are usable.
 - No fake testimonials, logos, metrics, customers, or integrations were added.
 

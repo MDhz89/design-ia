@@ -31,11 +31,26 @@ landing page is considered complete.
 
 ## Interaction and accessibility
 
+- Apply `interaction-and-motion.md` to review borders, hover states, filters,
+  scroll effects, and product demonstrations.
 - Test keyboard navigation and visible focus.
 - Verify semantic headings, landmarks, labels, and alternative text.
 - Confirm sufficient contrast and non-color state indicators.
 - Respect reduced-motion preferences.
 - Check interactive states: hover, focus, active, disabled, loading, and error.
+- Confirm scroll effects support the narrative, release cleanly, and never trap
+  or hijack normal scrolling.
+
+## Conversion path
+
+- Apply `conversion-actions.md` to every primary and secondary CTA.
+- Reject buttons with empty handlers, placeholder links, or destinations that do
+  not exist.
+- Verify forms have a real submission destination and complete loading, success,
+  validation, and error states.
+- Verify WhatsApp, phone, email, calendar, and internal links use real confirmed
+  destinations.
+- Complete the primary conversion flow on mobile and desktop.
 
 ## Responsive behavior
 
@@ -50,7 +65,8 @@ overlapping sticky elements, and loss of reading order.
 
 ## Quality and delivery
 
-- Verify links, forms, and the complete conversion path.
+- Verify links, forms, analytics hooks when present, and the complete conversion
+  path.
 - Check loading performance and unnecessary asset weight.
 - Review page title, description, social metadata, and heading structure.
 - Confirm there are no console errors or broken assets.

@@ -37,6 +37,8 @@ and existing brand. Define it in the current task rather than a new file:
 - Layout rhythm, density, and maximum content width.
 - Product presentation approach.
 - Motion principles.
+- Interaction language for borders, links, controls, filters, and product media.
+- One or two intentional scroll moments tied to the page narrative.
 - Relevant references and the exact quality taken from each one.
 
 Do not combine unrelated visual styles or ask to copy another brand.
@@ -51,7 +53,8 @@ Before implementation, concisely present:
 4. Section sequence and the purpose of every section.
 5. Product evidence used in important claims.
 6. Components reusable from the existing application.
-7. Risks that could make the result feel generic.
+7. Primary CTA behavior, destination, and lead-handling path.
+8. Risks that could make the result feel generic.
 
 Remove redundant sections before writing final copy.
 
@@ -65,10 +68,10 @@ Recommended order:
 4. Core workflow.
 5. Business rules and differentiators.
 6. Verified proof or case evidence.
-7. Conversion section.
-8. Responsive behavior.
-9. Accessibility.
-10. SEO, metadata, and performance.
+7. Functional conversion section and submission path.
+8. Microinteractions and intentional scroll moments.
+9. Responsive behavior and accessibility.
+10. SEO, metadata, performance, and final review.
 
 Keep each implementation request narrow enough to review visually and
 functionally before continuing.
@@ -78,5 +81,6 @@ functionally before continuing.
 - Run the landing-page review workflow.
 - Remove unsupported content and unnecessary decoration.
 - Verify the real conversion path.
+- Verify purposeful interaction states and reduced-motion behavior.
 - Test responsive and keyboard behavior.
 - Move only genuinely reusable lessons back into the global library.

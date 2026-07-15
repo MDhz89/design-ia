@@ -5,9 +5,12 @@
 Use this workflow to turn an existing product and its business logic into a
 focused landing page without defaulting to a generic SaaS template.
 
-## 1. Understand the product
+## 1. Discover the product
 
-Document the following before proposing a layout:
+Use the current application as the source of truth. Inspect it using the
+discovery and confidence process in `landing-generator.md`.
+
+Build a temporary working model of:
 
 - Real problem and current workaround.
 - Buyer, operational users, and other stakeholders.
@@ -17,12 +20,16 @@ Document the following before proposing a layout:
 - Available evidence: interface captures, metrics, customers, or case studies.
 - Primary conversion action.
 
+Do not create a permanent product brief, copy file, or design-direction file.
+Ask the user only about critical information that cannot be inferred reliably.
+
 Do not describe the product as a collection of CRUD screens. Explain the
 business process it controls and the errors, delays, or risks it prevents.
 
-## 2. Define one design direction
+## 2. Infer one design direction
 
-Choose a coherent direction based on the product and audience. Specify:
+Choose a coherent direction from the discovered product, audience, interface,
+and existing brand. Define it in the current task rather than a new file:
 
 - Intended character and emotional tone.
 - Typography and hierarchy.
@@ -34,18 +41,17 @@ Choose a coherent direction based on the product and audience. Specify:
 
 Do not combine unrelated visual styles or ask to copy another brand.
 
-## 3. Plan the narrative
+## 3. Present the discovery and narrative
 
-Before implementation, propose:
+Before implementation, concisely present:
 
-1. Visitor and buyer.
-2. Primary conversion objective.
-3. Section sequence.
-4. Purpose of every section.
-5. Product evidence used in every claim.
-6. Missing content or assets.
-7. Components reusable from the existing application.
-8. Risks that could make the result feel generic.
+1. Product, user, buyer, problem, and core workflow.
+2. Confirmed evidence and critical uncertainty.
+3. Primary conversion objective.
+4. Section sequence and the purpose of every section.
+5. Product evidence used in important claims.
+6. Components reusable from the existing application.
+7. Risks that could make the result feel generic.
 
 Remove redundant sections before writing final copy.
 

@@ -8,7 +8,8 @@ It prevents common patterns that make AI-generated landing pages feel generic.
 ## Do not generate by default
 
 - A centered hero composed of a badge, headline, paragraph, and two buttons.
-- Purple-to-blue gradients as an automatic visual identity.
+- Purple-to-blue gradients as an automatic visual identity. Existing brand
+  colors may still be used deliberately when they are supported by the product.
 - Random glowing or blurred background orbs.
 - Decorative grids, noise, or particles without semantic purpose.
 - Three identical feature cards in a row.

@@ -1,4 +1,4 @@
-# Landing Page Process
+# Landing page process
 
 ## Purpose
 
@@ -8,7 +8,7 @@ focused landing page without defaulting to a generic SaaS template.
 ## 1. Discover the product
 
 Use the current application as the source of truth. Inspect it using the
-discovery and confidence process in `landing-generator.md`.
+discovery and confidence process in `SKILL.md`.
 
 Build a temporary working model of:
 

@@ -1,4 +1,4 @@
-# Anti-AI Patterns
+# Anti-AI patterns
 
 ## Purpose
 

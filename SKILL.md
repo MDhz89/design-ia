@@ -1,3 +1,8 @@
+---
+name: landing-generator
+description: Use when analyzing an existing Lovable application to plan, build, or review a public product landing page from its implemented code and UI; not for greenfield apps, unrelated feature work, or generic marketing pages without an existing product.
+---
+
 # Landing Generator
 
 ## Purpose
@@ -13,13 +18,16 @@ requests them.
 
 ## Supporting guidance
 
-When the repository is available, read these files before implementation:
+Load supporting references only when their phase requires them:
 
-1. `global/design-principles.md`
-2. `global/anti-ai-patterns.md`
-3. `global/accessibility.md`
-4. `workflows/landing-page-process.md`
-5. `workflows/landing-page-review.md`
+- Read `references/design-principles.md` and
+  `references/anti-ai-patterns.md` while planning the narrative and visual
+  direction.
+- Read `references/accessibility.md` before implementation and verification.
+- Read `references/landing-page-process.md` after discovery, when planning or
+  implementing the page.
+- Read `references/landing-page-review.md` when reviewing an existing result or
+  performing final verification.
 
 They extend this master procedure and must not be treated as separate product
 inputs. If only this file is available, follow the essential rules included
@@ -133,7 +141,7 @@ inventory or create it as a file.
 
 ## Phase 5: Design and implement
 
-Follow `workflows/landing-page-process.md` when available.
+Follow `references/landing-page-process.md` when available.
 
 Base the narrative on the discovered workflow. A useful default is:
 
@@ -172,7 +180,7 @@ section must have a distinct purpose.
 
 ## Phase 6: Verify
 
-Use `workflows/landing-page-review.md` when available.
+Use `references/landing-page-review.md` when available.
 
 At minimum, verify:
 

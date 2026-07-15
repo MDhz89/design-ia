@@ -1,4 +1,4 @@
-# Landing Page Review
+# Landing page review
 
 ## Purpose
 
@@ -23,7 +23,7 @@ landing page is considered complete.
 
 ## Visual design
 
-- Identify generic AI-generated patterns using `global/anti-ai-patterns.md`.
+- Identify generic AI-generated patterns using `anti-ai-patterns.md`.
 - Check hierarchy, rhythm, alignment, density, and readable line lengths.
 - Look for excessive cards, pills, gradients, containers, and decorations.
 - Verify that repeated components contain genuinely comparable information.

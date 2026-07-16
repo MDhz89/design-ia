@@ -28,6 +28,7 @@ design-ia/
 └── references/
     ├── accessibility.md
     ├── anti-ai-patterns.md
+    ├── brand-hierarchy-and-composition.md
     ├── conversion-actions.md
     ├── design-principles.md
     ├── interaction-and-motion.md
@@ -101,6 +102,13 @@ Prueba la conversión completa y todas las interacciones.
 ### Diseño e interacción
 
 - Usar jerarquía, espaciado, bordes y composición antes que decoración.
+- Elegir wordmark, isotipo o lockup según la legibilidad del espacio disponible.
+- Definir un color de marca dominante y reservar el secundario para acentos.
+- Mantener números, precios, comisiones, badges e índices subordinados al mensaje
+  cuando no sean la evidencia principal.
+- Presentar primero la explicación y después la evidencia visual, salvo que la
+  narrativa justifique invertir el orden.
+- Conectar visualmente los pasos que formen una secuencia real.
 - Definir estados hover, focus, active, selected, disabled y loading.
 - Reservar los efectos fuertes de scroll para uno o dos momentos narrativos.
 - Evitar scroll hijacking, animaciones constantes y efectos sin propósito.

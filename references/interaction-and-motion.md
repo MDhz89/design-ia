@@ -1,5 +1,15 @@
 # Interaction and motion
 
+## Contents
+
+- Define interaction states
+- Minimal interaction language
+- Filters, tabs, and selectors
+- Scroll-triggered reveals
+- Narrative scroll moments
+- Technical constraints
+- Acceptance checks
+
 Make the landing feel deliberately crafted through restrained interaction
 detail and a small number of narrative motion moments. Never add effects only
 to make the page look busier.
@@ -32,6 +42,10 @@ Use a consistent combination of two or three signals across the page:
 Avoid stacking scale, shadow, glow, rotation, color, and movement on the same
 element. Avoid hover scaling that causes layout movement. A card should behave as
 a clickable surface only when the entire card performs a real action.
+
+Use glow as a restrained emphasis treatment, not as a default decoration. A
+subtle brand-colored halo or border may distinguish one selected plan or CTA when
+a fully inverted high-contrast surface would feel visually heavy.
 
 ## Filters, tabs, and selectors
 

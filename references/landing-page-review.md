@@ -24,9 +24,14 @@ landing page is considered complete.
 ## Visual design
 
 - Identify generic AI-generated patterns using `anti-ai-patterns.md`.
+- Apply `brand-hierarchy-and-composition.md` to logo placement, color balance,
+  metric scale, reading order, process continuity, plans, and final CTA.
 - Check hierarchy, rhythm, alignment, density, and readable line lengths.
 - Look for excessive cards, pills, gradients, containers, and decorations.
 - Verify that repeated components contain genuinely comparable information.
+- Check that no section number, commission, price, badge, or decorative label
+  overwhelms the brand message without a deliberate reason.
+- Check that compact logo placements use an asset that remains recognizable.
 - Recommend removals before additions.
 
 ## Interaction and accessibility

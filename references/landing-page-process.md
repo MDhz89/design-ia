@@ -34,8 +34,11 @@ and existing brand. Define it in the current task rather than a new file:
 - Intended character and emotional tone.
 - Typography and hierarchy.
 - Color behavior and accent usage.
+- Logo variants and the placements each variant can support legibly.
 - Layout rhythm, density, and maximum content width.
 - Product presentation approach.
+- Hierarchy between headlines, section numbers, metrics, prices, badges, and
+  supporting labels.
 - Motion principles.
 - Interaction language for borders, links, controls, filters, and product media.
 - One or two intentional scroll moments tied to the page narrative.
@@ -54,7 +57,8 @@ Before implementation, concisely present:
 5. Product evidence used in important claims.
 6. Components reusable from the existing application.
 7. Primary CTA behavior, destination, and lead-handling path.
-8. Risks that could make the result feel generic.
+8. Brand hierarchy and reading order for the most important sections.
+9. Risks that could make the result feel generic.
 
 Remove redundant sections before writing final copy.
 
@@ -69,9 +73,10 @@ Recommended order:
 5. Business rules and differentiators.
 6. Verified proof or case evidence.
 7. Functional conversion section and submission path.
-8. Microinteractions and intentional scroll moments.
-9. Responsive behavior and accessibility.
-10. SEO, metadata, performance, and final review.
+8. Brand hierarchy, composition, and process continuity.
+9. Microinteractions and intentional scroll moments.
+10. Responsive behavior, accessibility, SEO, metadata, performance, and final
+    review.
 
 Keep each implementation request narrow enough to review visually and
 functionally before continuing.

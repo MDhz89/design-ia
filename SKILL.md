@@ -23,6 +23,9 @@ Load supporting references only when their phase requires them:
 - Read `references/design-principles.md` and
   `references/anti-ai-patterns.md` while planning the narrative and visual
   direction.
+- Read `references/brand-hierarchy-and-composition.md` when selecting logo
+  variants, assigning brand colors, sizing metrics, ordering text and product
+  evidence, or emphasizing plans and CTAs.
 - Read `references/accessibility.md` before implementation and verification.
 - Read `references/landing-page-process.md` after discovery, when planning or
   implementing the page.
@@ -79,6 +82,8 @@ Read, when available:
 8. Authentication, roles, permissions, and feature guards.
 9. Dashboards, reports, tables, audit history, and status views.
 10. Design tokens, typography, icons, images, and other brand assets.
+11. Available logo variants, including wordmarks, isotypes, horizontal lockups,
+    light and dark versions, and their existing usage.
 
 Focus on behavior that is implemented, not merely named or suggested.
 
@@ -141,6 +146,8 @@ Before implementation, present:
 6. Critical uncertainty, if any.
 7. Proposed landing narrative and sections.
 8. Proposed CTA behavior and any data or destination it still requires.
+9. Proposed brand hierarchy, including logo usage, dominant accent color, and
+   the elements that should receive or surrender visual emphasis.
 
 Keep this summary short and decision-oriented. Do not output a technical
 inventory or create it as a file.
@@ -166,6 +173,13 @@ section must have a distinct purpose.
 
 - Prefer product evidence, typography, spacing, and composition over decoration.
 - Use the existing visual identity when it is coherent and accessible.
+- Select logo variants for legibility rather than shrinking one asset into every
+  placement.
+- Establish one dominant brand accent and use secondary colors intentionally.
+- Keep labels, section numbers, metrics, prices, and badges subordinate to the
+  message unless one of them is the actual evidence being sold.
+- Place explanatory content before its visual evidence in the reading order
+  unless the narrative provides a specific reason to reverse it.
 - Vary section composition according to content.
 - Avoid generic centered heroes, decorative gradients, glowing shapes, repeated
   card grids, excessive pills, fake social proof, and unsupported claims.
@@ -197,6 +211,8 @@ At minimum, verify:
 - The page represents the actual product.
 - Every claim is supported by the project or user-provided facts.
 - Product evidence appears prominently.
+- Brand assets remain recognizable and visual emphasis follows the intended
+  reading order.
 - Copy explains business value rather than generic CRUD functionality.
 - Sections do not repeat the same structure without a content reason.
 - Existing routes and primary application flows still work.

@@ -31,6 +31,7 @@ generated from a generic SaaS template.
 
 - Establish a deliberate type scale and spacing system before adding decoration.
 - Vary section composition according to the content being explained.
+- Establish the reading order before choosing visual symmetry or alternation.
 - Prefer whitespace and subtle separators over unnecessary containers.
 - Keep paragraphs readable and avoid overly wide text columns.
 - Make the product visible early when product evidence is available.

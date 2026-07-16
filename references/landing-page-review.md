@@ -5,6 +5,10 @@
 Use this checklist after each meaningful implementation stage and before the
 landing page is considered complete.
 
+For a diagnosis-only request, first apply
+`authorship-and-art-direction-audit.md` and do not implement corrections until
+the user approves a direction.
+
 ## Product and message
 
 - Identify the buyer, user, problem, and primary action from the first screen.
@@ -24,6 +28,8 @@ landing page is considered complete.
 ## Visual design
 
 - Identify generic AI-generated patterns using `anti-ai-patterns.md`.
+- Evaluate authorship, product specificity, controlled asymmetry, and the first
+  viewport using `authorship-and-art-direction-audit.md`.
 - Apply `brand-hierarchy-and-composition.md` to logo placement, color balance,
   metric scale, reading order, process continuity, plans, and final CTA.
 - Check hierarchy, rhythm, alignment, density, and readable line lengths.

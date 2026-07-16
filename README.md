@@ -28,6 +28,7 @@ design-ia/
 └── references/
     ├── accessibility.md
     ├── anti-ai-patterns.md
+    ├── authorship-and-art-direction-audit.md
     ├── brand-hierarchy-and-composition.md
     ├── conversion-actions.md
     ├── design-principles.md
@@ -96,6 +97,22 @@ Antes de publicar:
 Revisa y corrige la landing terminada siguiendo el checklist de la Skill.
 Prueba la conversión completa y todas las interacciones.
 ```
+
+### Auditar una landing existente sin modificarla
+
+Puedes usar la misma Skill para diagnosticar una landing ya construida:
+
+```text
+/landing-generator
+
+Analiza esta landing ya hecha. No modifiques archivos.
+Detecta qué patrones hacen que se perciba generada por IA y propón
+una dirección de arte más específica para este producto.
+```
+
+La respuesta debe separar diagnóstico, fortalezas que conviene preservar,
+patrones genéricos observados, dirección propuesta, prioridades e insumos
+faltantes. Los cambios se implementan únicamente después de aprobar la propuesta.
 
 ## Criterios principales
 

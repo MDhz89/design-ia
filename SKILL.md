@@ -1,6 +1,6 @@
 ---
 name: landing-generator
-description: Use when analyzing an existing Lovable application to plan, build, or review a public product landing page from its implemented code and UI; not for greenfield apps, unrelated feature work, or generic marketing pages without an existing product.
+description: Use when analyzing an existing Lovable application to plan, build, visually audit, or review a public product landing page from its code, rendered UI, or screenshots, including requests to detect AI-generic patterns and propose a more authored direction without implementation; not for greenfield apps, unrelated feature work, or generic marketing pages without an existing product.
 ---
 
 # Landing Generator
@@ -26,6 +26,9 @@ Load supporting references only when their phase requires them:
 - Read `references/brand-hierarchy-and-composition.md` when selecting logo
   variants, assigning brand colors, sizing metrics, ordering text and product
   evidence, or emphasizing plans and CTAs.
+- Read `references/authorship-and-art-direction-audit.md` when auditing a
+  rendered landing, reviewing screenshots, diagnosing why a page feels
+  AI-generated, or proposing a more product-specific visual direction.
 - Read `references/accessibility.md` before implementation and verification.
 - Read `references/landing-page-process.md` after discovery, when planning or
   implementing the page.
@@ -65,6 +68,23 @@ landing-page effectiveness.
 - Do not block implementation for minor marketing details.
 - Reuse the existing stack, components, terminology, and visual identity when
   they are suitable.
+
+## Select the operating mode
+
+Infer the mode from the user's instruction:
+
+- **Discover and plan:** inspect the application and propose the landing before
+  implementation.
+- **Build:** implement an approved or sufficiently defined landing direction.
+- **Audit and propose:** inspect an existing rendered landing or screenshots,
+  diagnose generic patterns, and propose prioritized changes without modifying
+  files.
+- **Review and correct:** inspect, implement approved corrections, and verify the
+  completed result.
+
+When the user asks to analyze, evaluate, diagnose, critique, or propose, use
+**Audit and propose** and do not modify code. End with a concrete proposal that
+can be approved and implemented in a later message.
 
 ## Phase 1: Project discovery
 
@@ -220,6 +240,27 @@ At minimum, verify:
 - Hover, focus, filter, scroll, and form interactions work as intended.
 - Keyboard, reduced-motion, mobile, and desktop behavior are usable.
 - No fake testimonials, logos, metrics, customers, or integrations were added.
+
+## Audit an existing landing
+
+When using **Audit and propose**, inspect the rendered page, supplied screenshots,
+and relevant source when available. Follow
+`references/authorship-and-art-direction-audit.md`.
+
+Return:
+
+1. The current first impression.
+2. What already works and should be preserved.
+3. The exact pattern clusters that create an AI-generated impression.
+4. The interchangeability result: what could belong to an unrelated product.
+5. The product-specific visual idea currently missing.
+6. A prioritized proposal for composition, typography, evidence, brand, motion,
+   and conversion.
+7. Risks and information or assets required before implementation.
+
+Do not return vague advice such as “make it more modern,” “add personality,” or
+“improve hierarchy.” Tie every recommendation to observed evidence and describe
+the intended perceptual effect.
 
 ## Completion report
 

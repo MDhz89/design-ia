@@ -40,7 +40,28 @@ workflow, constraints, and outcomes.
 ## Review questions
 
 - Could the same page be used for an unrelated SaaS product by changing its name?
+- Does the first viewport combine several familiar SaaS defaults into one
+  recognizable assembly?
 - Does each section introduce distinct evidence or merely repeat a claim?
 - Are visual treatments connected to content and interaction?
 - Is the product visible, understandable, and believable?
 - Can any section or decoration be removed without losing meaning?
+
+## Evaluate pattern clusters
+
+Do not classify a page as generic because it contains one common pattern. Detect
+clusters. A hero becomes strongly AI-coded when several defaults appear together,
+for example:
+
+- Small pill badge.
+- Oversized bold sans-serif headline.
+- One phrase highlighted with an accent color or gradient.
+- Supporting paragraph.
+- Primary filled CTA beside an outlined secondary CTA.
+- Row of small check-mark benefits.
+- Floating dashboard inside a browser frame.
+- Soft shadow on a neutral background.
+- Perfectly balanced two-column grid.
+
+When a cluster appears, recommend changing the underlying composition and
+art-direction idea rather than merely restyling each component.
